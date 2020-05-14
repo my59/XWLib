@@ -1,0 +1,22 @@
+{
+  "name": "XWLib",
+  "version": "0.1.0",
+  "summary": "A short description of XWLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/my59/XWLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "my59": "595599987@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/my59/XWLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XWLib/Classes/**/*"
+}

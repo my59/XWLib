@@ -1,0 +1,6 @@
+framework module XWLib {
+  umbrella header "XWLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
