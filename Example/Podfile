@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XWLib_Tests' do
+  pod 'XWLib', :path => '../'
+  
+  
+end
