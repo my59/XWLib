@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '试试更新了'
   s.swift_version    = '5.0'
 
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
   s.source_files = 'XWLib/Classes/**/*'
   
-  s.vendored_libraries = 'XWLib/Classes/*.a'
+  s.vendored_libraries = 'XWLib/Classes/**/*'
   
   # s.resource_bundles = {
   #   'XWLib' => ['XWLib/Assets/*.png']
