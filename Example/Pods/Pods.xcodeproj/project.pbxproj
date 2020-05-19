@@ -349,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		A687DB9C6803A1BCF7083FD30C738DC1 /* Debug */ = {
+		91C26FAF8E177F47B33A90B2C27BDAD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B481690EB3CED578418B3F5B09A0F9B /* XWLib.debug.xcconfig */;
 			buildSettings = {
@@ -365,7 +365,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/XWLib/XWLib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/XWLib/XWLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XWLib/XWLib.modulemap";
 				PRODUCT_MODULE_NAME = XWLib;
@@ -373,12 +373,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AA71012CCA07BF569FF9746DB973795B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5BF15CA04093D0EAEA53073DEFBEF2 /* XWLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XWLib/XWLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XWLib/XWLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XWLib/XWLib.modulemap";
+				PRODUCT_MODULE_NAME = XWLib;
+				PRODUCT_NAME = XWLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -503,38 +535,6 @@
 			};
 			name = Debug;
 		};
-		BA8D1A483F75E2FBBB54FB35AC9A1EDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A5BF15CA04093D0EAEA53073DEFBEF2 /* XWLib.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XWLib/XWLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XWLib/XWLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XWLib/XWLib.modulemap";
-				PRODUCT_MODULE_NAME = XWLib;
-				PRODUCT_NAME = XWLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D70A0FF9D039DF0D3F297181B22C8934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FFFD6ADE86868E9438DB10ED2909B1F /* Pods-XWLib_Tests.release.xcconfig */;
@@ -575,8 +575,8 @@
 		26201CFB045162D3350E8CB10A636D1B /* Build configuration list for PBXNativeTarget "XWLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A687DB9C6803A1BCF7083FD30C738DC1 /* Debug */,
-				BA8D1A483F75E2FBBB54FB35AC9A1EDF /* Release */,
+				91C26FAF8E177F47B33A90B2C27BDAD5 /* Debug */,
+				AA71012CCA07BF569FF9746DB973795B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

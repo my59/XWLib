@@ -1,5 +1,5 @@
 PODS:
-  - XWLib (0.1.0)
+  - XWLib (0.1.9)
 
 DEPENDENCIES:
   - XWLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XWLib: 3b917ad40c79d6a3dac30b41c454c4866e0019eb
+  XWLib: ca72737dbb55a767349b253c0919a6ddd4a4174b
 
 PODFILE CHECKSUM: 560c1f5218642e12354114f3cc51b9c7049787ab
 

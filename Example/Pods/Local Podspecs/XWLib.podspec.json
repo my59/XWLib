@@ -1,22 +1,20 @@
 {
   "name": "XWLib",
-  "version": "0.1.0",
-  "summary": "A short description of XWLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.9",
+  "summary": "试试更新了",
+  "swift_versions": "5.0",
+  "description": "这是长描述你是不是傻啊，这也管",
   "homepage": "https://github.com/my59/XWLib",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
   "authors": {
     "my59": "595599987@qq.com"
   },
   "source": {
     "git": "https://github.com/my59/XWLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.9"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "XWLib/Classes/**/*"
+  "source_files": "XWLib/**/*.swift",
+  "swift_version": "5.0"
 }
