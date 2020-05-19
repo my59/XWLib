@@ -8,29 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWLib'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '试试更新了'
   s.swift_version    = '5.0'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 这是长描述你是不是傻啊，这也管
                        DESC
 
   s.homepage         = 'https://github.com/my59/XWLib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'my59' => '595599987@qq.com' }
   s.source           = { :git => 'https://github.com/my59/XWLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
-  s.source_files = 'XWLib/Classes/*'
+  s.source_files = 'XWLib/**/*.swift'
   
   #s.vendored_libraries = "XWLib/Classes/**/*.a"
   
