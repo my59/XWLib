@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWLib'
-  s.version          = '0.1.13'
+  s.version          = '0.1.14'
   s.summary          = '试试更新了'
   s.swift_version    = '5.0'
 

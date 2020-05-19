@@ -9,7 +9,7 @@
 import UIKit
 
 public extension String {
-    public var isNotEmpty: Bool {
+    var isNotEmpty: Bool {
         return !isEmpty
     }
     
@@ -88,7 +88,7 @@ public extension String {
     
 }
 
-extension Optional where Wrapped == String {
+public extension Optional where Wrapped == String {
     
     var isEmpty: Bool {
         return self?.isEmpty ?? true

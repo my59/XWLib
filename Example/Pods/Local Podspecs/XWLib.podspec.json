@@ -1,9 +1,8 @@
 {
   "name": "XWLib",
-  "version": "0.1.11",
+  "version": "0.1.14",
   "summary": "试试更新了",
   "swift_versions": "5.0",
-  "description": "这是长描述你是不是傻啊，这也管",
   "homepage": "https://github.com/my59/XWLib",
   "license": {
     "type": "MIT",
@@ -14,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/my59/XWLib.git",
-    "tag": "0.1.11"
+    "tag": "0.1.14"
   },
   "platforms": {
     "ios": "12.0"
   },
   "source_files": "XWLib/*.swift",
+  "frameworks": "UIKit",
   "swift_version": "5.0"
 }

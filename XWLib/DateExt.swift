@@ -20,24 +20,24 @@ public extension Date {
     
     public static let fullDateFormatter = DateFormatter(format: "yyyy-MM-dd HH:mm:ss")
     
-    public static let dateFormat = DateFormatter(format: "MM-dd HH:mm")
+    static let dateFormat = DateFormatter(format: "MM-dd HH:mm")
     
     /// 格式为：yyyy-MM-dd HH:mm:ss
-    public var fullDateString: String {
+    var fullDateString: String {
         return Date.fullDateFormatter.string(from: self)
     }
     
     /// 格式为：MM-dd HH:mm
-    public var dateString: String {
+    var dateString: String {
         return Date.dateFormat.string(from: self)
     }
     
-    public init(stamp13: Int64) {
+    init(stamp13: Int64) {
         let time = TimeInterval(stamp13 / 1000)
         self.init(timeIntervalSince1970: time)
     }
     
-    public init(stamp: Int64) {
+    init(stamp: Int64) {
         var time = stamp
         while (time / 10 ^ 11) > 0 {
             time /= 10
