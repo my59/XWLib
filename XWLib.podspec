@@ -8,13 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWLib'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = '试试更新了'
   s.swift_version    = '5.0'
-
-  s.description      = <<-DESC
-这是长描述你是不是傻啊，这也管
-                       DESC
 
   s.homepage         = 'https://github.com/my59/XWLib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -25,6 +21,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source_files = 'XWLib/*.swift'
   
+  s.frameworks = 'UIKit'
+
   #s.vendored_libraries = "XWLib/Classes/**/*.a"
   
   # s.resource_bundles = {

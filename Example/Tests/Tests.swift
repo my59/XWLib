@@ -6,6 +6,7 @@ class Tests: XCTestCase {
     override func setUp() {
         super.setUp()
         let ss = "s"
+//        ss.isn
 //        ss.is
 //        XWTest.
 //        ss.isno
