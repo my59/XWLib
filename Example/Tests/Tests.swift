@@ -6,6 +6,8 @@ class Tests: XCTestCase {
     override func setUp() {
         super.setUp()
         let ss = "s"
+//        ss.is
+//        XWTest.
 //        ss.isno
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

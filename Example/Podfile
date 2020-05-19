@@ -1,6 +1,9 @@
 use_frameworks!
+
+platform :ios, '12.0'
+
 target 'XWLib_Tests' do
-  pod 'XWLib', :path => '../'
+  pod 'XWLib', :path => '../XWLib.podspec'
   
   
 end

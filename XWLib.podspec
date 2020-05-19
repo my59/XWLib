@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XWLib'
-  s.version          = '0.1.9'
+  s.version          = '0.1.11'
   s.summary          = '试试更新了'
   s.swift_version    = '5.0'
 
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/my59/XWLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.3'
-  s.source_files = 'XWLib/**/*.swift'
+  s.ios.deployment_target = '12.0'
+  s.source_files = 'XWLib/*.swift'
   
   #s.vendored_libraries = "XWLib/Classes/**/*.a"
   
