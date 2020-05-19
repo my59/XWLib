@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/my59/XWLib'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'my59' => '595599987@qq.com' }
   s.source           = { :git => 'https://github.com/my59/XWLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
