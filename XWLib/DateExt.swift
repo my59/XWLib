@@ -18,7 +18,7 @@ public extension DateFormatter {
 
 public extension Date {
     
-    public static let fullDateFormatter = DateFormatter(format: "yyyy-MM-dd HH:mm:ss")
+    static let fullDateFormatter = DateFormatter(format: "yyyy-MM-dd HH:mm:ss")
     
     static let dateFormat = DateFormatter(format: "MM-dd HH:mm")
     
