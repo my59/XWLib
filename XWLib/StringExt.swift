@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension String {
-    var isNotEmpty: Bool {
+public extension String {
+    public var isNotEmpty: Bool {
         return !isEmpty
     }
     

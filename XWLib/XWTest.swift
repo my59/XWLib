@@ -7,9 +7,9 @@
 
 import UIKit
 
-class XWTest: NSObject {
+public class XWTest: NSObject {
 
-    func printSelf() {
+    public func printSelf() {
         
         print("is XWTest")
         

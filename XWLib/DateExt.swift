@@ -9,35 +9,35 @@
 import UIKit
 
 
-extension DateFormatter {
+public extension DateFormatter {
     convenience init(format: String) {
         self.init()
         dateFormat = format
     }
 }
 
-extension Date {
+public extension Date {
     
-    static let fullDateFormatter = DateFormatter(format: "yyyy-MM-dd HH:mm:ss")
+    public static let fullDateFormatter = DateFormatter(format: "yyyy-MM-dd HH:mm:ss")
     
-    static let dateFormat = DateFormatter(format: "MM-dd HH:mm")
+    public static let dateFormat = DateFormatter(format: "MM-dd HH:mm")
     
     /// 格式为：yyyy-MM-dd HH:mm:ss
-    var fullDateString: String {
+    public var fullDateString: String {
         return Date.fullDateFormatter.string(from: self)
     }
     
     /// 格式为：MM-dd HH:mm
-    var dateString: String {
+    public var dateString: String {
         return Date.dateFormat.string(from: self)
     }
     
-    init(stamp13: Int64) {
+    public init(stamp13: Int64) {
         let time = TimeInterval(stamp13 / 1000)
         self.init(timeIntervalSince1970: time)
     }
     
-    init(stamp: Int64) {
+    public init(stamp: Int64) {
         var time = stamp
         while (time / 10 ^ 11) > 0 {
             time /= 10
